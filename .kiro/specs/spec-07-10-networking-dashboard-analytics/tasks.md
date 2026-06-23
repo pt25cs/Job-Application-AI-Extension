@@ -1,0 +1,54 @@
+# Tasks
+
+## Task List
+
+- [x] 1. Create database migration 004
+- [x] 2. Create TypeScript type files
+  - [x] 2.1 src/types/contacts.ts
+  - [x] 2.2 src/types/outreach.ts
+  - [x] 2.3 src/types/settings.ts
+  - [x] 2.4 src/types/analytics.ts
+- [x] 3. Create Zustand stores
+  - [x] 3.1 src/stores/contactsStore.ts
+  - [x] 3.2 src/stores/outreachStore.ts
+  - [x] 3.3 src/stores/dashboardStore.ts
+  - [x] 3.4 src/stores/settingsStore.ts
+- [x] 4. Create library modules
+  - [x] 4.1 src/lib/contacts.ts
+  - [x] 4.2 src/lib/outreach.ts
+  - [x] 4.3 src/lib/dashboard.ts
+  - [x] 4.4 src/lib/settings.ts
+  - [x] 4.5 src/lib/analytics.ts
+  - [x] 4.6 src/lib/analyticsTracker.ts
+- [x] 5. Create Edge Functions
+  - [x] 5.1 supabase/functions/discover-contacts/alumni.ts
+  - [x] 5.2 supabase/functions/discover-contacts/apollo.ts
+  - [x] 5.3 supabase/functions/discover-contacts/proxycurl.ts
+  - [x] 5.4 supabase/functions/discover-contacts/hunter.ts
+  - [x] 5.5 supabase/functions/discover-contacts/index.ts
+  - [x] 5.6 supabase/functions/draft-outreach/index.ts
+  - [x] 5.7 supabase/functions/send-outreach/index.ts
+- [x] 6. Create contact UI components
+  - [x] 6.1 src/sidepanel/components/ContactCard.tsx
+  - [x] 6.2 src/sidepanel/components/ContactDiscoveryPanel.tsx
+- [x] 7. Create outreach UI components
+  - [x] 7.1 src/sidepanel/components/OutreachDraftCard.tsx
+  - [x] 7.2 src/sidepanel/components/OutreachPanel.tsx
+- [x] 8. Create dashboard UI components
+  - [x] 8.1 src/sidepanel/components/dashboard/ApplicationCard.tsx
+  - [x] 8.2 src/sidepanel/components/dashboard/StatusColumn.tsx
+  - [x] 8.3 src/sidepanel/components/dashboard/DashboardFilters.tsx
+  - [x] 8.4 src/sidepanel/components/dashboard/ApplicationDetail.tsx
+  - [x] 8.5 src/sidepanel/components/dashboard/Dashboard.tsx
+- [x] 9. Create analytics UI components
+  - [x] 9.1 src/sidepanel/components/analytics/WeeklyTrendChart.tsx
+  - [x] 9.2 src/sidepanel/components/analytics/ATSScoreDistribution.tsx
+  - [x] 9.3 src/sidepanel/components/analytics/OutreachFunnel.tsx
+  - [x] 9.4 src/sidepanel/components/analytics/AnalyticsDashboard.tsx
+- [x] 10. Create settings UI components
+  - [x] 10.1 src/sidepanel/components/settings/RateLimitDashboard.tsx
+  - [x] 10.2 src/sidepanel/components/settings/SettingsPage.tsx
+- [x] 11. Create onboarding tutorial
+  - [x] 11.1 src/sidepanel/components/onboarding/Tutorial.tsx
+- [x] 12. Update App.tsx with new routes and navigation
+- [x] 13. Update background service worker with follow-up alarm handling
